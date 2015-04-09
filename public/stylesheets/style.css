@@ -1,0 +1,39 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+    color: #00B7FF;
+}
+span {
+    margin: 2px;
+}
+label {
+    font-size: 14px;
+    margin: 30px 5px 30px 5px;
+}
+#summary label {
+    font: 11px;
+}
+div {
+    font-size: 12px;
+    margin: 10px;
+}
+table {
+    empty-cells: show;
+    border: 1px solid;
+    margin: 10px;
+}
+td, th {
+    border: 1px solid;
+    padding: 0 1em 0;
+}
+td.clazz {
+    width: 80px;
+}
+td.count {
+    width: 40px;
+}
+td.ids {
+    width: 1500px;
+}

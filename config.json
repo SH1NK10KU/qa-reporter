@@ -1,0 +1,25 @@
+{
+    "environment": {
+        "development": {
+            "jiradb": {
+            	"type": "mysql",
+                "host": [mysql_host],
+                "user": [mysql_user],
+                "password": [mysql_password],
+                "database": [mysql_database],
+                "port": [mysql_oort],
+                "connectionLimit": 10
+            },
+            "qareportdb": {
+                "type": "mongodb",
+                "host": [mongo_host],
+                "database": [mongo_database],
+                "port": [mongo_port]
+            },
+            "schedule": {
+                "text":"every 10 mins",
+                "cron":"0 0 21 * *"
+            }
+        }
+    }
+}
