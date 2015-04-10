@@ -11,7 +11,8 @@ QAReporterService = {
     getQueryResults: function(dbname, sql, params, callback) {
         pool.query(dbname, sql, params, function(err, results) {
             if (err) {
-                throw err;
+                console.log(err);
+                return;
             }
             if (results.length > 0) {
                 callback(results);
