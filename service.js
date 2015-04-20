@@ -17,6 +17,7 @@ QAReporterService = {
             if (results.length > 0) {
                 callback(results);
             }
+            return;
         });
     },
     getNumberOfPublishedProjectFromJira: function(values) {
@@ -376,7 +377,7 @@ QAReporterService = {
             res.json({
                 result: results
             });
-            return;
+            // return;
         });
     },
     syncStatisticalResultFromJira: function() {
